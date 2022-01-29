@@ -7,7 +7,7 @@ public class Snake
   public int Health { get; set; }
   public IEnumerable<Point> Body { get; set; }
   public string Latency { get; set; }
-  public IEnumerable<Point> Head { get; set; }
+  public Point Head { get; set; }
   public int Length { get; set; }
   public string Shout { get; set; }
   public string Squad { get; set; }
