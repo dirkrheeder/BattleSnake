@@ -16,13 +16,13 @@ public class EndpointDefinitions : IEndpointDefinition
 
   public void DefineServices(IServiceCollection services)
   {
-    services.AddHttpLogging(logging =>
-    {
-      // Customize HTTP logging here.
-      logging.LoggingFields = HttpLoggingFields.All;
-      logging.RequestBodyLogLimit = 4096;
-      logging.ResponseBodyLogLimit = 4096;
-    });
+    //services.AddHttpLogging(logging =>
+    //{
+    //  // Customize HTTP logging here.
+    //  logging.LoggingFields = HttpLoggingFields.All;
+    //  logging.RequestBodyLogLimit = 4096;
+    //  logging.ResponseBodyLogLimit = 4096;
+    //});
 
     services.Configure<JsonOptions>(o => o.SerializerOptions.Converters.Add(new JsonStringEnumConverter()));
     services.Configure<MvcJsonOptions>(o => o.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
