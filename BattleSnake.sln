@@ -1,58 +1,43 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.2.32526.322
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1BC8E6F0-E31D-49CC-8802-7F377DBF60F4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1002B7D0-C7EA-47B6-8226-F2873EDBE488}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleSnake.Api", "src\BattleSnake.Api\BattleSnake.Api.csproj", "{FB8F46A4-5721-4D20-BBEE-B365EC46CD7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleSnake.Core", "src\BattleSnake.Core\BattleSnake.Core.csproj", "{9AAF7245-19D7-4CED-A9EC-7E9C914D83B2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleSnake.Core", "src\BattleSnake.Core\BattleSnake.Core.csproj", "{150247E6-02DC-4B35-B4D7-1C25666455D3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{26F48AAF-8825-4685-9984-4AE1C78BEF8B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleSnake.PathVisualiser", "src\BattleSnake.PathVisualiser\BattleSnake.PathVisualiser.csproj", "{B66CF0FF-A8AB-45DF-8C58-408500C7188B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleSnake.Test", "test\BattleSnake.Test\BattleSnake.Test.csproj", "{213719E6-C683-4B94-A4A2-CAD33A2E23DB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3AC64EAF-8BD3-4A64-B8B6-BF7481D363F3}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleSnake.Test", "test\BattleSnake.Test\BattleSnake.Test.csproj", "{016DCA44-7721-421E-9091-562ED2690A9D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3943CDDF-C312-4CF8-A670-2AD7C38EC302}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleSnake.Api", "src\BattleSnake.Api\BattleSnake.Api.csproj", "{C4F700EC-BEB7-468B-9B4D-863409D85882}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FB8F46A4-5721-4D20-BBEE-B365EC46CD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB8F46A4-5721-4D20-BBEE-B365EC46CD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB8F46A4-5721-4D20-BBEE-B365EC46CD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB8F46A4-5721-4D20-BBEE-B365EC46CD7D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{150247E6-02DC-4B35-B4D7-1C25666455D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{150247E6-02DC-4B35-B4D7-1C25666455D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{150247E6-02DC-4B35-B4D7-1C25666455D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{150247E6-02DC-4B35-B4D7-1C25666455D3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B66CF0FF-A8AB-45DF-8C58-408500C7188B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B66CF0FF-A8AB-45DF-8C58-408500C7188B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B66CF0FF-A8AB-45DF-8C58-408500C7188B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B66CF0FF-A8AB-45DF-8C58-408500C7188B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{016DCA44-7721-421E-9091-562ED2690A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{016DCA44-7721-421E-9091-562ED2690A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{016DCA44-7721-421E-9091-562ED2690A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{016DCA44-7721-421E-9091-562ED2690A9D}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{FB8F46A4-5721-4D20-BBEE-B365EC46CD7D} = {1BC8E6F0-E31D-49CC-8802-7F377DBF60F4}
-		{150247E6-02DC-4B35-B4D7-1C25666455D3} = {1BC8E6F0-E31D-49CC-8802-7F377DBF60F4}
-		{B66CF0FF-A8AB-45DF-8C58-408500C7188B} = {1BC8E6F0-E31D-49CC-8802-7F377DBF60F4}
-		{016DCA44-7721-421E-9091-562ED2690A9D} = {3AC64EAF-8BD3-4A64-B8B6-BF7481D363F3}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AAF7245-19D7-4CED-A9EC-7E9C914D83B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AAF7245-19D7-4CED-A9EC-7E9C914D83B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AAF7245-19D7-4CED-A9EC-7E9C914D83B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AAF7245-19D7-4CED-A9EC-7E9C914D83B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{213719E6-C683-4B94-A4A2-CAD33A2E23DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213719E6-C683-4B94-A4A2-CAD33A2E23DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213719E6-C683-4B94-A4A2-CAD33A2E23DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213719E6-C683-4B94-A4A2-CAD33A2E23DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F700EC-BEB7-468B-9B4D-863409D85882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F700EC-BEB7-468B-9B4D-863409D85882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F700EC-BEB7-468B-9B4D-863409D85882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F700EC-BEB7-468B-9B4D-863409D85882}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {40DAEF90-0D5E-4472-AE53-EA84CA59F4DD}
+	GlobalSection(NestedProjects) = preSolution
+		{9AAF7245-19D7-4CED-A9EC-7E9C914D83B2} = {1002B7D0-C7EA-47B6-8226-F2873EDBE488}
+		{213719E6-C683-4B94-A4A2-CAD33A2E23DB} = {26F48AAF-8825-4685-9984-4AE1C78BEF8B}
+		{C4F700EC-BEB7-468B-9B4D-863409D85882} = {1002B7D0-C7EA-47B6-8226-F2873EDBE488}
 	EndGlobalSection
 EndGlobal
